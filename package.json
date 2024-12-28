@@ -1,0 +1,16 @@
+{
+  "name": "mabica-discord-bot",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.18.0",
+    "commandkit": "^0.1.10",
+    "discord.js": "^14.16.3"
+  }
+}
